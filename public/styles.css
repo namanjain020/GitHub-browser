@@ -1,0 +1,162 @@
+body {
+  font-family: "Noto Sans Display";
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.RepBox {
+  background-color: #54545c;
+  border-color: whitesmoke;
+  color: antiquewhite;
+  font-size: 10px;
+  padding: 3px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin: 0px 30px 3px 10px;
+}
+
+.RepBoxTab {
+  font-family: "Oswald";
+  font-size: 30px;
+  width: 150px;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  outline: auto;
+  margin: 10px 5px 3px 10px;
+}
+
+.AddButton {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: #064663;
+  border-color: #064663;
+  color: aliceblue;
+  border-radius: 100%;
+}
+
+.header {
+  border-color: #160040;
+  background-color: #54545c;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  height: 80px;
+  margin: 0px;
+  padding: 20px;
+}
+.header h1 {
+  color: aliceblue;
+}
+
+.pop-content {
+  padding: 0px;
+  border: 0px;
+}
+
+.Popup {
+  background-color: #3b1f48;
+  color: aliceblue;
+  padding: 20px;
+  margin: -20px;
+  border-radius: 5%;
+}
+.Popup img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.Popup h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.list {
+  font-size: 20px;
+  padding: 0px 5px 0px 0px;
+
+}
+
+.scrollBox {
+  width: auto;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.IssueTab {
+  border: black;
+  outline: auto;
+  margin: 0px;
+  padding: 2px;
+}
+.IssueTab img {
+  display: block;
+  margin-left: 2px;
+  margin-right: 5px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.IssueTab p {
+  display: block;
+}
+
+
+.LeftPane{
+  width:100%;
+  height: 100%;
+  background-color:#3b1f48;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.RightPane{
+  height: 100%;
+  background-color:#f6b3c4;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.deleteButton{
+  background-color: #3b1f48;
+  margin: 5px;
+  color: aliceblue;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 5%;
+  padding:2px 10px 6px 10px;
+  font-family: Bakbak One;
+  
+}
+
+.deleteButton:hover {
+  transform: translateX(3px);
+}
+
+.inputUser{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-color:#3b1f48;
+  outline: #3b1f48;
+}
+.Enter{
+  margin: 5px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  border-color:#3b1f48;
+  outline: #3b1f48;
+  color:#3b1f48;
+  text-shadow: #3b1f48;
+  font-family: Bakbak One;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
