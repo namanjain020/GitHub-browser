@@ -8,6 +8,8 @@ npm install
 npm start
 ```
 
+![Application Screenshot](https://github.com/namanjain020/GitHub-browser/blob/master/browser.png)
+
 ##Aspects covered:
 Resizable two pane layout
 Using GitHub API to fetch repos, issues and branches
